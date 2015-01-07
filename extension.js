@@ -53,9 +53,9 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
-        language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        botName: "bot bem massa",
+        language: "portuguese",
+        chatLink: "https://rawgit.com/CleytonL44/basicBot/master/lang/pt.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -105,6 +105,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/CleyonL44/basicBot/master/basicBot.js', extend);
 
 }).call(this);
